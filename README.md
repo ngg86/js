@@ -1,2 +1,2 @@
-# php
-php opdrachten
+# js
+js opdrachten
