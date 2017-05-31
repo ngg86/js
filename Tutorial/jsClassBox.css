@@ -1,0 +1,11 @@
+.border
+{
+border:10px solid black;
+}
+
+.box
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}

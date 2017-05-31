@@ -1,0 +1,58 @@
+<!doctype html>
+	<head>
+		<title>JavaScript Tutorial</title>
+	</head>
+	<!-- jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+		<script> $(document).ready(function()
+			{
+				$("button").click(function()
+				{
+					var div = $("#cube");					
+					div.animate({height: '300px'}, "slow");
+					div.animate({width: '300px'}, "slow");
+					div.animate({height: '100px'}, "slow");
+					div.animate({width: '100px'}, "slow");
+				});
+			});
+			
+		</script>
+		
+	<style>
+		#cube
+		{
+		 width:40px;
+		 height:40px;
+		 background-color:blue;			 
+		}
+		#text
+		{
+			color:blue;
+		}
+			
+	</style>
+	<body>
+		<button>KLIK MEEEEEE!</button>
+		<p id="demo">
+		Lorem Ipsum is.
+		</p>
+		<form name="test">
+			<input type="text" id="invoer"/>
+			<button type="button" id="knop">Klik Hier</button>
+		</form>
+		
+		<div id="cube">
+			
+		</div>
+		<div id="text">
+				<p>
+					Hi!
+				</p>
+		</div>
+			
+	
+	
+	<script type="text/JavaScript" src="code.js"></script>
+	</body>
+</html>

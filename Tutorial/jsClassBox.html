@@ -1,0 +1,47 @@
+<html>
+	<head>
+	<title>Javascript class box</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="jsClassBox.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function()
+	{
+		
+		$('.box').mouseenter(function()
+		{
+			$(this).addClass("border");
+			$(this).css("background-color", "blue");
+		});
+		
+		$('.box').mouseleave(function()
+		{
+			$(this).removeClass("border");
+			$(this).css("background-color", "red");		
+		});
+		
+		$('.box').click(function()
+		{
+			$(this).animate({"margin-left":"+=20px"});
+		});
+		
+	});
+	</script>
+	
+	<body>
+	
+	<div class='box'></div>
+	<br>
+	
+	<div class='box'></div>
+	<br>
+	
+	<div class='box'></div>
+	<br>
+	
+	<div class='box'></div>
+	<br>
+	
+	
+	</body>
+</html>
